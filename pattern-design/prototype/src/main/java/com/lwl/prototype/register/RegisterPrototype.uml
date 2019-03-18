@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lwl.prototype.register.RegisterPrototype</OriginalElement>
+  <nodes>
+    <node x="198.66875" y="532.0">com.lwl.prototype.register.Client</node>
+    <node x="0.0" y="359.0">com.lwl.prototype.register.PrototypeManager</node>
+    <node x="108.1" y="0.0">java.lang.Cloneable</node>
+    <node x="82.1" y="81.0">com.lwl.prototype.register.Prototype</node>
+    <node x="195.875" y="278.0">com.lwl.prototype.register.RegisterPrototype</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lwl.prototype.register.Client" target="com.lwl.prototype.register.PrototypeManager">
+      <point x="-64.875" y="-27.0" />
+      <point x="220.29375" y="507.0" />
+      <point x="140.5" y="507.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="com.lwl.prototype.register.Client" target="com.lwl.prototype.register.Prototype">
+      <point x="64.875" y="-27.0" />
+      <point x="350.04375" y="507.0" />
+      <point x="359.375" y="507.0" />
+      <point x="359.375" y="248.0" />
+      <point x="224.29999999999995" y="248.0" />
+      <point x="63.199999999999974" y="73.5" />
+    </edge>
+    <edge source="com.lwl.prototype.register.Prototype" target="java.lang.Cloneable">
+      <point x="-1.4210854715202004E-14" y="-73.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.lwl.prototype.register.PrototypeManager" target="com.lwl.prototype.register.RegisterPrototype">
+      <point x="112.39999999999998" y="-61.5" />
+      <point x="-19.125" y="15.5" />
+    </edge>
+    <edge source="com.lwl.prototype.register.PrototypeManager" target="com.lwl.prototype.register.Prototype">
+      <point x="-56.19999999999999" y="-61.5" />
+      <point x="84.30000000000001" y="339.0" />
+      <point x="124.68333333333332" y="339.0" />
+      <point x="124.68333333333332" y="258.0" />
+      <point x="129.5" y="258.0" />
+      <point x="-31.60000000000001" y="73.5" />
+    </edge>
+    <edge source="com.lwl.prototype.register.RegisterPrototype" target="com.lwl.prototype.register.Prototype">
+      <point x="0.0" y="-15.5" />
+      <point x="272.375" y="258.0" />
+      <point x="192.7" y="258.0" />
+      <point x="31.59999999999998" y="73.5" />
+    </edge>
+    <edge source="com.lwl.prototype.register.Client" target="com.lwl.prototype.register.RegisterPrototype">
+      <point x="21.624999999999993" y="-27.0" />
+      <point x="306.79375" y="507.0" />
+      <point x="325.4375" y="507.0" />
+      <point x="325.4375" y="339.0" />
+      <point x="329.75" y="339.0" />
+      <point x="57.375" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="127.0" y="332.5" />
+  <SelectedNodes>
+    <node>com.lwl.prototype.register.PrototypeManager</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

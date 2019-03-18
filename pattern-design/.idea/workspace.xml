@@ -1,11 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1900e3aa-cf96-4082-8621-5c86b6853c83" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1900e3aa-cf96-4082-8621-5c86b6853c83" name="Default Changelist" comment="提交原型模式和代理模式课后作业">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/demo/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/demo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/demo/Order.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/demo/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/demo/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/demo/订单复制修改为原型模式" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/register/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/register/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/register/PrototypeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/register/RegisterPrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/register/RegisterPrototype.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/register/登记式原型模式" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/simple/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/simple/Prototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/simple/SimplePrototype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/simple/SimplePrototype.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/simple/简单原型模式" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/demo/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/demo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/demo/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/demo/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/register/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/register/Prototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/register/PrototypeManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/register/RegisterPrototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/simple/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/simple/Prototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/simple/SimplePrototype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/AgentInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/AgentInterceptor.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/CglibClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/WomanRenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/AgentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/AgentHandler.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/ISportRent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/ManRenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/AgentInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/AgentInvocationHandler.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/CarRenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/ICarRent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfProxyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/example/ProxySubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/example/ProxySubject.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/example/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/example/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/example/client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/ProxyRenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/ProxyRenter.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/Renter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proxy/代理模式课后作业.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/hungry/HungrySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/hungry/SerializableSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/innerclass/InnerClassSingleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/innerclass/InnerClassSingleton$SingletonHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/innerclass/InnerClassSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/lazy/LazySimpleSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/lazy/LazySingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/register/ContainerSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/register/EnumSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/threadlocal/ThreadLocalSingleton$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/classes/com/lwl/threadlocal/ThreadLocalSingleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/ConcurrentExecutor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/ConcurrentExecutor$RunHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/ConcurrentExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/ContainerSingletonTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/ContainerSingletonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/EnumSingletonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/ExectorThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/HungrySingletonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/InnerClassSingletonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/LazySimpleSingletonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/Pojo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/SerializableSingletonClassTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/singleton/target/test-classes/ThreadLocalSingletonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeriableSingleton.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/prototype/target/" />
+    <ignored path="$PROJECT_DIR$/singleton/target/" />
+    <ignored path="$PROJECT_DIR$/proxy/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +105,90 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>interfaces</find>
+      <find>getProxyClass0</find>
+      <find>proxyClassCache</find>
+      <find>com.gupaoedu.vip.pattern.proxy</find>
+      <find>classLoader</find>
+      <find>GPInvocationHandler</find>
+      <find>GPProxy</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.lwl.proxy</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/demo/Order.java" />
+        <option value="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/demo/OrderController.java" />
+        <option value="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/demo/OrderService.java" />
+        <option value="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/simple/Prototype.java" />
+        <option value="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/register/Prototype.java" />
+        <option value="$PROJECT_DIR$/prototype/src/main/java/com/lwl/prototype/demo/BaseEntity.java" />
+        <option value="$PROJECT_DIR$/singleton/src/test/java/HungrySingletonTest.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/Subject.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/RealSubject.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/ProxySubject.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/client.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/example/ProxySubject.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/example/client.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/HouserAnen.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/Renter.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/HouseAgent.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/Client.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/HouserAgentHandler.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/HouseAgentHandler.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/Person.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/ISportRent.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/ManRenter.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/AgentHandler.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/Client.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/jdkproxy/Client.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/selfproxy/ISelfHandler.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/selfproxy/SelfInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/selfproxy/SelfClassLoader.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/gpproxy/GPMeipo.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/gpproxy/Person.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/gpproxy/Girl.java" />
+        <option value="$PROJECT_DIR$/proxy/target/classes/com/lwl/proxy/daymicproxy/gpproxy/$Proxy0.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/gpproxy/$Proxy0.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/gpproxy/GPProxyTest.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/gpproxy/GPProxy.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/gpproxy/GPProxyTest.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/gpproxy/GPProxy.java" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/AgentInterceptor.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/ManRenter.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/WomanRenter.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/ManRenter.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/CglibClient.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/ICarRent.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfProxyTest.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfClassLoader.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfProxyGenerator.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/CarRenter.java" />
+        <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/AgentInvocationHandler.java" />
+      </list>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -27,54 +199,57 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="pattern" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/GP" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552908832923" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lwl.proxy.dynamicproxy.cglibproxy" />
+      <recent name="com.lwl.proxy.daymicproxy.gpproxy" />
+      <recent name="com.lwl.proxy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\homework\pattern-design\proxy\src\main\java\com\lwl\proxy\daymicproxy\gpproxy" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -88,6 +263,79 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.SelfProxyTest">
+    <configuration name="CglibClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lwl.proxy.dynamicproxy.cglibproxy.CglibClient" />
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lwl.proxy.dynamicproxy.cglibproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lwl.proxy.dynamicproxy.jdkproxy.Client" />
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lwl.proxy.dynamicproxy.jdkproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GPProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lwl.proxy.dynamicproxy.gpproxy.GPProxyTest" />
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lwl.proxy.dynamicproxy.gpproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelfProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lwl.proxy.dynamicproxy.selfproxy.SelfProxyTest" />
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lwl.proxy.dynamicproxy.selfproxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadLocalSingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreadLocalSingletonTest" />
+      <module name="singleton" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SelfProxyTest" />
+        <item itemvalue="Application.CglibClient" />
+        <item itemvalue="Application.GPProxyTest" />
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Client (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -98,51 +346,726 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552208859259</updated>
-      <workItem from="1552208862141" duration="244000" />
+      <workItem from="1552208862141" duration="1822000" />
+      <workItem from="1552269799982" duration="13563000" />
+      <workItem from="1552288526408" duration="2022000" />
+      <workItem from="1552821481240" duration="9113000" />
+      <workItem from="1552841030980" duration="3356000" />
+      <workItem from="1552889568791" duration="15654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244000" />
+    <option name="totallyTimeSpent" value="45530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49335548" visible="true" weight="0.26279318" />
+      <window_info x="713" y="368" width="493" height="304" id="Structure" order="1" sideWeight="0.50664455" side_tool="true" visible="true" weight="0.26279318" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48773986" weight="0.32962137" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51226014" side_tool="true" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48720682" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.1881663" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交原型模式和代理模式课后作业" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交原型模式和代理模式课后作业" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="4138" column="22" selection-start-line="4138" selection-start-column="22" selection-end-line="4138" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="483" column="35" selection-start-line="483" selection-start-column="32" selection-end-line="483" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/ISportRent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Error.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Exception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/ProxyRenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/selfproxy/SelfInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="84" selection-start-line="5" selection-start-column="84" selection-end-line="5" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="528" column="23" selection-start-line="528" selection-start-column="23" selection-end-line="528" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/selfproxy/SelfClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/daymicproxy/gpproxy/$Proxy0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="6" selection-start-line="4" selection-start-column="38" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/target/classes/com/lwl/proxy/daymicproxy/gpproxy/$Proxy0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/CglibAgent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.2.RELEASE/spring-core-5.0.2.RELEASE.jar!/org/springframework/cglib/proxy/Enhancer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/ManRenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/WomanRenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/CglibClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="93" selection-start-line="7" selection-start-column="93" selection-end-line="7" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/AgentInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.lwl.proxy.example.ProxySubject">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lwl.proxy.example.ProxySubject</OriginalElement>
+          <nodes>
+            <node x="" y="">com.lwl.proxy.example.ProxySubject</node>
+            <node x="" y="">com.lwl.proxy.example.Subject</node>
+            <node x="" y="">com.lwl.proxy.example.client</node>
+            <node x="" y="">com.lwl.proxy.example.RealSubject</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="180.5" y="166.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/example/ProxySubject.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lwl.proxy.example.ProxySubject</OriginalElement>
+          <nodes>
+            <node x="" y="">com.lwl.proxy.example.ProxySubject</node>
+            <node x="" y="">com.lwl.proxy.example.Subject</node>
+            <node x="" y="">com.lwl.proxy.example.client</node>
+            <node x="" y="">com.lwl.proxy.example.RealSubject</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="180.5" y="166.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.lwl.proxy.staticproxy.ProxyRenter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lwl.proxy.staticproxy.ProxyRenter</OriginalElement>
+          <nodes>
+            <node x="54.05208333333333" y="0.0">com.lwl.proxy.Person</node>
+            <node x="0.0" y="104.0">com.lwl.proxy.staticproxy.ProxyRenter</node>
+            <node x="57.51041666666666" y="278.0">com.lwl.proxy.staticproxy.Client</node>
+            <node x="212.0" y="139.0">com.lwl.proxy.staticproxy.Renter</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.lwl.proxy.staticproxy.ProxyRenter" target="com.lwl.proxy.Person">
+              <point x="64.0" y="-62.0" />
+              <point x="160.0" y="79.0" />
+              <point x="155.92708333333331" y="79.0" />
+              <point x="20.375" y="27.0" />
+            </edge>
+            <edge source="com.lwl.proxy.staticproxy.Client" target="com.lwl.proxy.staticproxy.Renter">
+              <point x="57.666666666666686" y="-27.0" />
+              <point x="201.67708333333334" y="253.0" />
+              <point x="293.5" y="253.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.lwl.proxy.staticproxy.Client" target="com.lwl.proxy.staticproxy.ProxyRenter">
+              <point x="-57.66666666666666" y="-27.0" />
+              <point x="86.34375" y="253.0" />
+              <point x="48.0" y="253.0" />
+              <point x="-48.0" y="62.0" />
+            </edge>
+            <edge source="com.lwl.proxy.staticproxy.Renter" target="com.lwl.proxy.Person">
+              <point x="0.0" y="-27.0" />
+              <point x="293.5" y="79.0" />
+              <point x="196.67708333333331" y="79.0" />
+              <point x="61.125" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="59.0" y="73.5" />
+          <SelectedNodes>
+            <node>com.lwl.proxy.staticproxy.ProxyRenter</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/AgentHandler.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler</OriginalElement>
+          <nodes>
+            <node x="" y="">com.lwl.proxy.Person</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.jdkproxy.ManRenter</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.jdkproxy.Client</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler</node>
+            <node x="" y="">java.lang.reflect.InvocationHandler</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.jdkproxy.ISportRent</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="361.0" y="223.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler</OriginalElement>
+          <nodes>
+            <node x="318.0" y="0.0">com.lwl.proxy.Person</node>
+            <node x="340.625" y="301.0">com.lwl.proxy.dynamicproxy.jdkproxy.Client</node>
+            <node x="387.75" y="139.0">com.lwl.proxy.dynamicproxy.jdkproxy.ManRenter</node>
+            <node x="0.0" y="104.0">com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler</node>
+            <node x="0.0" y="0.0">java.lang.reflect.InvocationHandler</node>
+            <node x="501.0" y="0.0">com.lwl.proxy.dynamicproxy.jdkproxy.ISportRent</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.ManRenter" target="com.lwl.proxy.dynamicproxy.jdkproxy.ISportRent">
+              <point x="55.25" y="-38.5" />
+              <point x="553.5" y="79.0" />
+              <point x="556.25" y="79.0" />
+              <point x="-55.25" y="27.0" />
+            </edge>
+            <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.Client" target="com.lwl.proxy.dynamicproxy.jdkproxy.ManRenter">
+              <point x="21.625" y="-27.0" />
+              <point x="448.75" y="271.0" />
+              <point x="498.25" y="271.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler" target="java.lang.reflect.InvocationHandler">
+              <point x="0.0" y="-73.5" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.Client" target="com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler">
+              <point x="-64.875" y="-27.0" />
+              <point x="362.25" y="281.0" />
+              <point x="149.0" y="281.0" />
+              <point x="0.0" y="73.5" />
+            </edge>
+            <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.ManRenter" target="com.lwl.proxy.Person">
+              <point x="-55.25" y="-38.5" />
+              <point x="443.0" y="79.0" />
+              <point x="440.25" y="79.0" />
+              <point x="40.75" y="27.0" />
+            </edge>
+            <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.Client" target="com.lwl.proxy.dynamicproxy.jdkproxy.ISportRent">
+              <point x="64.875" y="-27.0" />
+              <point x="492.0" y="281.0" />
+              <point x="646.78125" y="281.0" />
+              <point x="646.78125" y="79.0" />
+              <point x="666.75" y="79.0" />
+              <point x="55.25" y="27.0" />
+            </edge>
+            <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.Client" target="com.lwl.proxy.Person">
+              <point x="-21.625" y="-27.0" />
+              <point x="405.5" y="271.0" />
+              <point x="366.625" y="271.0" />
+              <point x="366.625" y="79.0" />
+              <point x="358.75" y="79.0" />
+              <point x="-40.75" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="361.0" y="177.5" />
+          <SelectedNodes>
+            <node>com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.lwl.proxy.dynamicproxy.gpproxy.GPInvocationHandler">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lwl.proxy.dynamicproxy.gpproxy.GPInvocationHandler</OriginalElement>
+          <nodes>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.gpproxy.GPProxyTest</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.gpproxy.GPInvocationHandler</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.gpproxy.Person</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.gpproxy.GPMeipo</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.gpproxy.Girl</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="257.0" y="165.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.lwl.proxy.dynamicproxy.cglibproxy.AgentInterceptor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lwl.proxy.dynamicproxy.cglibproxy.AgentInterceptor</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.cglib.proxy.MethodInterceptor</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.cglibproxy.WomanRenter</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.cglibproxy.CglibClient</node>
+            <node x="" y="">org.springframework.cglib.proxy.Callback</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.cglibproxy.AgentInterceptor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="289.5" y="206.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/AgentInterceptor.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lwl.proxy.dynamicproxy.cglibproxy.AgentInterceptor</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.cglib.proxy.MethodInterceptor</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.cglibproxy.WomanRenter</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.cglibproxy.CglibClient</node>
+            <node x="" y="">org.springframework.cglib.proxy.Callback</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.cglibproxy.AgentInterceptor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="289.5" y="206.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/gpproxy/GPProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="43" lean-forward="true" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/WeakCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1203">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="563" column="65" selection-start-line="563" selection-start-column="65" selection-end-line="563" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="95" column="15" selection-start-line="95" selection-start-column="15" selection-end-line="95" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/gpproxy/GPClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/Renter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/gpproxy/GPProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/gpproxy/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/gpproxy/Girl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/gpproxy/GPInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/gpproxy/GPMeipo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="12" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/ICarRent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/CarRenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfProxyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/SelfInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.lwl.proxy.dynamicproxy.selfproxy.AgentInvocationHandler">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lwl.proxy.dynamicproxy.selfproxy.AgentInvocationHandler</OriginalElement>
+          <nodes>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.SelfClassLoader</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.SelfInvocationHandler</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.AgentInvocationHandler</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.ICarRent</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.SelfProxyGenerator</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.SelfProxyTest</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.CarRenter</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9208754208754208" x="386.0" y="277.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/AgentInvocationHandler.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.lwl.proxy.dynamicproxy.selfproxy.AgentInvocationHandler</OriginalElement>
+          <nodes>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.SelfClassLoader</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.SelfInvocationHandler</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.AgentInvocationHandler</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.ICarRent</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.SelfProxyGenerator</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.SelfProxyTest</node>
+            <node x="" y="">com.lwl.proxy.dynamicproxy.selfproxy.CarRenter</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9208754208754208" x="386.0" y="367.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/AgentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="43" selection-start-column="43" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/selfproxy/AgentInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" lean-forward="true" selection-start-column="8" selection-end-column="44" />
+          <folding>
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -166,6 +1089,19 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>proxy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -180,6 +1116,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: cglib:cglib-nodep:2.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

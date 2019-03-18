@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lwl.proxy.example.ProxySubject</OriginalElement>
+  <nodes>
+    <node x="0.0" y="104.0">com.lwl.proxy.example.ProxySubject</node>
+    <node x="60.82291666666666" y="0.0">com.lwl.proxy.example.Subject</node>
+    <node x="58.40625" y="278.0">com.lwl.proxy.example.client</node>
+    <node x="214.0" y="139.0">com.lwl.proxy.example.RealSubject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lwl.proxy.example.ProxySubject" target="com.lwl.proxy.example.Subject">
+      <point x="64.66666666666669" y="-62.0" />
+      <point x="161.66666666666669" y="79.0" />
+      <point x="152.69791666666666" y="79.0" />
+      <point x="18.375" y="27.0" />
+    </edge>
+    <edge source="com.lwl.proxy.example.RealSubject" target="com.lwl.proxy.example.Subject">
+      <point x="0.0" y="-27.0" />
+      <point x="287.5" y="79.0" />
+      <point x="189.44791666666666" y="79.0" />
+      <point x="55.125" y="27.0" />
+    </edge>
+    <edge source="com.lwl.proxy.example.client" target="com.lwl.proxy.example.RealSubject">
+      <point x="57.66666666666666" y="-27.0" />
+      <point x="202.57291666666666" y="253.0" />
+      <point x="287.5" y="253.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.lwl.proxy.example.client" target="com.lwl.proxy.example.ProxySubject">
+      <point x="0.0" y="-27.0" />
+      <point x="48.5" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="180.5" y="166.0" />
+  <SelectedNodes>
+    <node>com.lwl.proxy.example.ProxySubject</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -7,6 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pattern" />
+        <module name="prototype" />
+        <module name="proxy" />
+        <module name="singleton" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

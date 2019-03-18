@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler</OriginalElement>
+  <nodes>
+    <node x="318.0" y="0.0">com.lwl.proxy.Person</node>
+    <node x="340.625" y="301.0">com.lwl.proxy.dynamicproxy.jdkproxy.Client</node>
+    <node x="387.75" y="139.0">com.lwl.proxy.dynamicproxy.jdkproxy.ManRenter</node>
+    <node x="0.0" y="104.0">com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler</node>
+    <node x="0.0" y="0.0">java.lang.reflect.InvocationHandler</node>
+    <node x="501.0" y="0.0">com.lwl.proxy.dynamicproxy.jdkproxy.ISportRent</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.ManRenter" target="com.lwl.proxy.dynamicproxy.jdkproxy.ISportRent">
+      <point x="55.25" y="-38.5" />
+      <point x="553.5" y="79.0" />
+      <point x="556.25" y="79.0" />
+      <point x="-55.25" y="27.0" />
+    </edge>
+    <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.Client" target="com.lwl.proxy.dynamicproxy.jdkproxy.ManRenter">
+      <point x="21.625" y="-27.0" />
+      <point x="448.75" y="271.0" />
+      <point x="498.25" y="271.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler" target="java.lang.reflect.InvocationHandler">
+      <point x="0.0" y="-73.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.Client" target="com.lwl.proxy.dynamicproxy.jdkproxy.AgentHandler">
+      <point x="-64.875" y="-27.0" />
+      <point x="362.25" y="281.0" />
+      <point x="149.0" y="281.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.ManRenter" target="com.lwl.proxy.Person">
+      <point x="-55.25" y="-38.5" />
+      <point x="443.0" y="79.0" />
+      <point x="440.25" y="79.0" />
+      <point x="40.75" y="27.0" />
+    </edge>
+    <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.Client" target="com.lwl.proxy.dynamicproxy.jdkproxy.ISportRent">
+      <point x="64.875" y="-27.0" />
+      <point x="492.0" y="281.0" />
+      <point x="646.78125" y="281.0" />
+      <point x="646.78125" y="79.0" />
+      <point x="666.75" y="79.0" />
+      <point x="55.25" y="27.0" />
+    </edge>
+    <edge source="com.lwl.proxy.dynamicproxy.jdkproxy.Client" target="com.lwl.proxy.Person">
+      <point x="-21.625" y="-27.0" />
+      <point x="405.5" y="271.0" />
+      <point x="366.625" y="271.0" />
+      <point x="366.625" y="79.0" />
+      <point x="358.75" y="79.0" />
+      <point x="-40.75" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="361.0" y="177.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

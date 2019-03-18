@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lwl.proxy.dynamicproxy.cglibproxy.AgentInterceptor</OriginalElement>
+  <nodes>
+    <node x="0.0" y="81.0">org.springframework.cglib.proxy.MethodInterceptor</node>
+    <node x="416.0" y="219.5">com.lwl.proxy.dynamicproxy.cglibproxy.WomanRenter</node>
+    <node x="261.25" y="358.0">com.lwl.proxy.dynamicproxy.cglibproxy.CglibClient</node>
+    <node x="149.50000000000003" y="0.0">org.springframework.cglib.proxy.Callback</node>
+    <node x="0.0" y="185.0">com.lwl.proxy.dynamicproxy.cglibproxy.AgentInterceptor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lwl.proxy.dynamicproxy.cglibproxy.AgentInterceptor" target="org.springframework.cglib.proxy.MethodInterceptor">
+      <point x="0.0" y="-61.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.lwl.proxy.dynamicproxy.cglibproxy.CglibClient" target="com.lwl.proxy.dynamicproxy.cglibproxy.WomanRenter">
+      <point x="43.25000000000003" y="-27.0" />
+      <point x="391.0" y="333.0" />
+      <point x="497.5" y="333.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="org.springframework.cglib.proxy.MethodInterceptor" target="org.springframework.cglib.proxy.Callback">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.lwl.proxy.dynamicproxy.cglibproxy.CglibClient" target="com.lwl.proxy.dynamicproxy.cglibproxy.AgentInterceptor">
+      <point x="-43.24999999999997" y="-27.0" />
+      <point x="304.5" y="333.0" />
+      <point x="198.0" y="333.0" />
+      <point x="0.0" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="289.5" y="206.0" />
+  <SelectedNodes>
+    <node>com.lwl.proxy.dynamicproxy.cglibproxy.AgentInterceptor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
