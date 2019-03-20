@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lwl.delegate.example.IEmployee</OriginalElement>
+  <nodes>
+    <node x="186.0" y="104.0">com.lwl.delegate.example.Salesperson</node>
+    <node x="0.0" y="104.0">com.lwl.delegate.example.Technologist</node>
+    <node x="249.13125000000002" y="208.0">com.lwl.delegate.example.Leader</node>
+    <node x="192.13125000000002" y="312.0">com.lwl.delegate.example.Boss</node>
+    <node x="249.13125000000002" y="0.0">com.lwl.delegate.example.IEmployee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lwl.delegate.example.Leader" target="com.lwl.delegate.example.IEmployee">
+      <point x="33.19999999999998" y="-27.0" />
+      <point x="365.33125" y="188.0" />
+      <point x="373.5" y="188.0" />
+      <point x="373.5" y="74.0" />
+      <point x="365.33125" y="74.0" />
+      <point x="33.19999999999998" y="27.0" />
+    </edge>
+    <edge source="com.lwl.delegate.example.Salesperson" target="com.lwl.delegate.example.IEmployee">
+      <point x="0.0" y="-27.0" />
+      <point x="269.0" y="84.0" />
+      <point x="298.93125000000003" y="84.0" />
+      <point x="-33.19999999999999" y="27.0" />
+    </edge>
+    <edge source="com.lwl.delegate.example.Technologist" target="com.lwl.delegate.example.IEmployee">
+      <point x="0.0" y="-27.0" />
+      <point x="83.0" y="74.0" />
+      <point x="265.73125000000005" y="74.0" />
+      <point x="-66.39999999999998" y="27.0" />
+    </edge>
+    <edge source="com.lwl.delegate.example.Leader" target="com.lwl.delegate.example.Salesperson">
+      <point x="-33.19999999999999" y="-27.0" />
+      <point x="298.93125000000003" y="178.0" />
+      <point x="269.0" y="178.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.lwl.delegate.example.Boss" target="com.lwl.delegate.example.Leader">
+      <point x="-60.5" y="-38.5" />
+      <point x="252.63125000000002" y="287.0" />
+      <point x="290.63125" y="287.0" />
+      <point x="-41.5" y="27.0" />
+    </edge>
+    <edge source="com.lwl.delegate.example.Leader" target="com.lwl.delegate.example.Technologist">
+      <point x="-66.39999999999998" y="-27.0" />
+      <point x="265.73125000000005" y="188.0" />
+      <point x="83.0" y="188.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="139.16666666666669" y="135.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

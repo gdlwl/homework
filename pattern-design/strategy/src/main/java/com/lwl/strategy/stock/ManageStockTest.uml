@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lwl.strategy.stock.ManageStockTest</OriginalElement>
+  <nodes>
+    <node x="236.50000000000003" y="381.0">com.lwl.strategy.stock.ManageStockTest</node>
+    <node x="201.50000000000003" y="254.0">com.lwl.strategy.stock.StockManageService</node>
+    <node x="444.0" y="127.0">com.lwl.strategy.stock.AllotStockService</node>
+    <node x="0.0" y="127.0">com.lwl.strategy.stock.OutputStockService</node>
+    <node x="309.17857142857144" y="0.0">com.lwl.strategy.stock.StockStrategy</node>
+    <node x="222.00000000000003" y="127.0">com.lwl.strategy.stock.EneterStockSrevice</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lwl.strategy.stock.StockManageService" target="com.lwl.strategy.stock.EneterStockSrevice">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.lwl.strategy.stock.StockManageService" target="com.lwl.strategy.stock.StockStrategy">
+      <point x="81.0" y="-38.5" />
+      <point x="404.0" y="229.0" />
+      <point x="656.5" y="229.0" />
+      <point x="656.5" y="97.0" />
+      <point x="485.92857142857144" y="97.0" />
+      <point x="75.75" y="38.5" />
+    </edge>
+    <edge source="com.lwl.strategy.stock.EneterStockSrevice" target="com.lwl.strategy.stock.StockStrategy">
+      <point x="0.0" y="-38.5" />
+      <point x="323.0" y="107.0" />
+      <point x="384.92857142857144" y="107.0" />
+      <point x="-25.25" y="38.5" />
+    </edge>
+    <edge source="com.lwl.strategy.stock.ManageStockTest" target="com.lwl.strategy.stock.StockManageService">
+      <point x="43.25" y="-27.0" />
+      <point x="366.25" y="356.0" />
+      <point x="383.75" y="356.0" />
+      <point x="60.75" y="38.5" />
+    </edge>
+    <edge source="com.lwl.strategy.stock.StockManageService" target="com.lwl.strategy.stock.OutputStockService">
+      <point x="-81.0" y="-38.5" />
+      <point x="242.00000000000003" y="229.0" />
+      <point x="101.0" y="229.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="com.lwl.strategy.stock.OutputStockService" target="com.lwl.strategy.stock.StockStrategy">
+      <point x="0.0" y="-38.5" />
+      <point x="101.0" y="97.0" />
+      <point x="334.42857142857144" y="97.0" />
+      <point x="-75.75" y="38.5" />
+    </edge>
+    <edge source="com.lwl.strategy.stock.AllotStockService" target="com.lwl.strategy.stock.StockStrategy">
+      <point x="0.0" y="-38.5" />
+      <point x="545.0" y="107.0" />
+      <point x="435.42857142857144" y="107.0" />
+      <point x="25.25" y="38.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="259.0" y="137.0" />
+  <SelectedNodes>
+    <node>com.lwl.strategy.stock.ManageStockTest</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

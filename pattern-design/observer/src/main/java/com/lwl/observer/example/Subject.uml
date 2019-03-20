@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lwl.observer.example.Subject</OriginalElement>
+  <nodes>
+    <node x="0.0" y="277.0">com.lwl.observer.example.OctalObserver</node>
+    <node x="412.0" y="277.0">com.lwl.observer.example.BinaryObserver</node>
+    <node x="153.50000000000003" y="0.0">com.lwl.observer.example.Subject</node>
+    <node x="206.0" y="277.0">com.lwl.observer.example.HexObserver</node>
+    <node x="154.25" y="173.0">com.lwl.observer.example.Observer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lwl.observer.example.OctalObserver" target="com.lwl.observer.example.Observer">
+      <point x="46.5" y="-27.0" />
+      <point x="139.5" y="257.0" />
+      <point x="185.25" y="257.0" />
+      <point x="-62.0" y="27.0" />
+    </edge>
+    <edge source="com.lwl.observer.example.BinaryObserver" target="com.lwl.observer.example.Observer">
+      <point x="-46.5" y="-27.0" />
+      <point x="458.5" y="247.0" />
+      <point x="309.25" y="247.0" />
+      <point x="62.0" y="27.0" />
+    </edge>
+    <edge source="com.lwl.observer.example.Subject" target="com.lwl.observer.example.Observer">
+      <point x="-2.8421709430404007E-14" y="61.5" />
+      <point x="23.25" y="-27.0" />
+    </edge>
+    <edge source="com.lwl.observer.example.Observer" target="com.lwl.observer.example.Subject">
+      <point x="-69.75" y="-27.0" />
+      <point x="177.5" y="148.0" />
+      <point x="203.64285714285717" y="148.0" />
+      <point x="-66.85714285714286" y="61.5" />
+    </edge>
+    <edge source="com.lwl.observer.example.HexObserver" target="com.lwl.observer.example.Subject">
+      <point x="46.5" y="-27.0" />
+      <point x="345.5" y="257.0" />
+      <point x="350.75" y="257.0" />
+      <point x="350.75" y="148.0" />
+      <point x="337.3571428571428" y="148.0" />
+      <point x="66.85714285714278" y="61.5" />
+    </edge>
+    <edge source="com.lwl.observer.example.BinaryObserver" target="com.lwl.observer.example.Subject">
+      <point x="46.5" y="-27.0" />
+      <point x="551.5" y="148.0" />
+      <point x="370.7857142857142" y="148.0" />
+      <point x="100.28571428571422" y="61.5" />
+    </edge>
+    <edge source="com.lwl.observer.example.OctalObserver" target="com.lwl.observer.example.Subject">
+      <point x="-46.5" y="-27.0" />
+      <point x="46.5" y="257.0" />
+      <point x="54.56026785714283" y="257.0" />
+      <point x="54.56026785714283" y="148.0" />
+      <point x="170.21428571428575" y="148.0" />
+      <point x="-100.28571428571428" y="61.5" />
+    </edge>
+    <edge source="com.lwl.observer.example.HexObserver" target="com.lwl.observer.example.Observer">
+      <point x="-46.5" y="-27.0" />
+      <point x="252.5" y="257.0" />
+      <point x="247.25" y="257.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="45.0" y="106.0" />
+  <SelectedNodes>
+    <node>com.lwl.observer.example.Subject</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

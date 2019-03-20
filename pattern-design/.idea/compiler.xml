@@ -6,10 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="adapter" />
+        <module name="decorator" />
+        <module name="delegate" />
+        <module name="observer" />
         <module name="pattern" />
         <module name="prototype" />
         <module name="proxy" />
         <module name="singleton" />
+        <module name="strategy" />
+        <module name="template" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

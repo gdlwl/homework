@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lwl.strategy.example.Context</OriginalElement>
+  <nodes>
+    <node x="359.0" y="104.0">com.lwl.strategy.example.BubbleSortStrategy</node>
+    <node x="167.0" y="104.0">com.lwl.strategy.example.SelectionSortStrategy</node>
+    <node x="218.0" y="203.0">com.lwl.strategy.example.Context</node>
+    <node x="180.5" y="0.0">com.lwl.strategy.example.Strategy</node>
+    <node x="0.0" y="203.0">com.lwl.strategy.example.Client</node>
+    <node x="0.0" y="104.0">com.lwl.strategy.example.InsertionStrategy</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lwl.strategy.example.SelectionSortStrategy" target="com.lwl.strategy.example.Strategy">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.lwl.strategy.example.InsertionStrategy" target="com.lwl.strategy.example.Strategy">
+      <point x="0.0" y="-27.0" />
+      <point x="73.5" y="79.0" />
+      <point x="204.66666666666666" y="79.0" />
+      <point x="-48.33333333333334" y="27.0" />
+    </edge>
+    <edge source="com.lwl.strategy.example.BubbleSortStrategy" target="com.lwl.strategy.example.Strategy">
+      <point x="0.0" y="-27.0" />
+      <point x="439.5" y="79.0" />
+      <point x="301.33333333333337" y="79.0" />
+      <point x="48.33333333333337" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="316.0" y="97.0" />
+  <SelectedNodes>
+    <node>com.lwl.strategy.example.Context</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

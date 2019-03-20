@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.lwl.observer.gpguava.TeacherListener</OriginalElement>
+  <nodes>
+    <node x="16.583333333333314" y="0.0">com.lwl.observer.gpguava.Question</node>
+    <node x="41.25" y="519.0">com.lwl.observer.gpguava.GperGuavaTest</node>
+    <node x="10.5" y="173.0">com.lwl.observer.gpguava.GperGuava</node>
+    <node x="59.0" y="369.0">com.lwl.observer.gpguava.TeacherListener</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.lwl.observer.gpguava.GperGuava" target="com.lwl.observer.gpguava.Question">
+      <point x="-56.0" y="-73.0" />
+      <point x="66.5" y="148.0" />
+      <point x="96.45833333333331" y="148.0" />
+      <point x="-26.625" y="61.5" />
+    </edge>
+    <edge source="com.lwl.observer.gpguava.TeacherListener" target="com.lwl.observer.gpguava.GperGuava">
+      <point x="0.0" y="-50.0" />
+      <point x="196.5" y="344.0" />
+      <point x="178.5" y="344.0" />
+      <point x="56.0" y="73.0" />
+    </edge>
+    <edge source="com.lwl.observer.gpguava.GperGuavaTest" target="com.lwl.observer.gpguava.GperGuava">
+      <point x="-34.59999999999998" y="-27.0" />
+      <point x="93.15000000000002" y="489.0" />
+      <point x="48.5" y="489.0" />
+      <point x="48.5" y="344.0" />
+      <point x="66.5" y="344.0" />
+      <point x="-56.0" y="73.0" />
+    </edge>
+    <edge source="com.lwl.observer.gpguava.GperGuavaTest" target="com.lwl.observer.gpguava.TeacherListener">
+      <point x="0.0" y="-27.0" />
+      <point x="-68.75" y="50.0" />
+    </edge>
+    <edge source="com.lwl.observer.gpguava.GperGuavaTest" target="com.lwl.observer.gpguava.Question">
+      <point x="-69.19999999999999" y="-27.0" />
+      <point x="58.55000000000001" y="499.0" />
+      <point x="0.0" y="499.0" />
+      <point x="0.0" y="148.0" />
+      <point x="43.208333333333314" y="148.0" />
+      <point x="-79.875" y="61.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="69.5" y="264.0" />
+  <SelectedNodes>
+    <node>com.lwl.observer.gpguava.TeacherListener</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

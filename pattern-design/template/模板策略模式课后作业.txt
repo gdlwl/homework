@@ -1,0 +1,39 @@
+
+1、思考：模板模式除了继承以外，还有哪些实现方式？
+JDK1.8以后接口里面可以有默认方法，可以用实现接口的方式实现
+
+public interface MakeTea {
+     default void execute(){
+        boilWater();
+        putTea();
+        addHotWater();
+    }
+    //煮水
+    void boilWater();
+    /**
+     * 放茶叶
+     */
+    void putTea();
+    //加水
+    void addHotWater();
+}
+
+public class MakeLongjingTea implements  MakeTea {
+    @Override
+    public void boilWater() {
+        System.out.println("煮水");
+    }
+
+    @Override
+    public void putTea() {
+        System.out.println("加龙井查");
+    }
+
+    @Override
+    public void addHotWater() {
+        System.out.println("加热水");
+    }
+}
+
+2、使用适配模式，重构一段需要升级功能且兼容老系统的业务代码。
+com.lwl.adapter.loginadapter包

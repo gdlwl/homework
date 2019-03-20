@@ -1,8 +1,6 @@
 package com.lwl.proxy.dynamicproxy.cglibproxy;
 
-import com.lwl.proxy.Person;
-
-public class WomanRenter implements Person{
+public class WomanRenter{
     public void rentHouse() {
         System.out.println("附件购物方便");
         System.out.println("附件买菜方便");

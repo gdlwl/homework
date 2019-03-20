@@ -1,0 +1,2 @@
+1、运用原型模式重构一段业务代码。
+com.lwl.prototype.demo包下
