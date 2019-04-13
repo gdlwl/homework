@@ -2,120 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1900e3aa-cf96-4082-8621-5c86b6853c83" name="Default Changelist" comment="提交原型模式和代理模式课后作业">
-      <change afterPath="$PROJECT_DIR$/adapter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/classadapter/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/classadapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/classadapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/ResultMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v1/SignInForThridTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v1/service/SignInForThridService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v1/service/SignInService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/IPassportForThird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/PassportForThirdAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/PassportForThirdTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/adapters/LoginAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/adapters/LoginForQQAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/adapters/LoginForTelphoneAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/adapters/LoginForTokenAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/adapters/LoginForWechatAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/objectadapter/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/objectadapter/Adapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/objectadapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/poweradapter/AC200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/poweradapter/DC5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/poweradapter/PowerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/poweradapter/PowerAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/lwl/decorator/battercake/Battercake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/lwl/decorator/battercake/BattercakeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/lwl/decorator/battercake/EggDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/lwl/decorator/battercake/IBattercake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/decorator/src/main/java/com/lwl/decorator/battercake/SausageDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/lwl/delegate/example/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/lwl/delegate/example/IEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/lwl/delegate/example/Leader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/lwl/delegate/example/Salesperson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/lwl/delegate/example/Technologist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/lwl/delegate/mvc/DispatchServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/lwl/delegate/mvc/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/delegate/src/main/java/com/lwl/delegate/mvc/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/example/BinaryObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/example/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/example/HexObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/example/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/example/OctalObserver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/example/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/gpadvice/Gper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/gpadvice/ObserverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/gpadvice/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/gpadvice/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/gpguava/GperGuava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/gpguava/GperGuavaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/gpguava/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/observer/src/main/java/com/lwl/observer/gpguava/TeacherListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/example/BubbleSortStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/example/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/example/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/example/InsertionStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/example/SelectionSortStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/example/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/stock/AllotStockService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/stock/EneterStockSrevice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/stock/ManageStockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/stock/OutputStockService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/stock/StockManageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strategy/src/main/java/com/lwl/strategy/stock/StockStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/main/java/com/lwl/tempalte/example/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/main/java/com/lwl/tempalte/example/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/main/java/com/lwl/tempalte/example/ConcreteClassA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/main/java/com/lwl/tempalte/interfacetemplate/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/main/java/com/lwl/tempalte/interfacetemplate/MakeLongjingTea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/src/main/java/com/lwl/tempalte/interfacetemplate/MakeTea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/demo/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/demo/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/demo/OrderController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/demo/OrderService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/register/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/register/Prototype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/register/PrototypeManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/register/RegisterPrototype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/simple/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/simple/Prototype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/target/classes/com/lwl/prototype/simple/SimplePrototype.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/WomanRenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/WomanRenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/hungry/HungrySingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/hungry/SerializableSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/innerclass/InnerClassSingleton$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/innerclass/InnerClassSingleton$SingletonHolder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/innerclass/InnerClassSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/lazy/LazySimpleSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/lazy/LazySingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/register/ContainerSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/register/EnumSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/threadlocal/ThreadLocalSingleton$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/classes/com/lwl/threadlocal/ThreadLocalSingleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/ConcurrentExecutor$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/ConcurrentExecutor$RunHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/ConcurrentExecutor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/ContainerSingletonTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/ContainerSingletonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/EnumSingletonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/ExectorThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/HungrySingletonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/InnerClassSingletonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/LazySimpleSingletonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/Pojo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/SerializableSingletonClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/singleton/target/test-classes/ThreadLocalSingletonTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/prototype/target/" />
@@ -137,30 +24,12 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/WomanRenter.java">
+        <entry file="file://$PROJECT_DIR$/proxy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/AgentInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/CglibClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="228">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -196,7 +65,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/template/src/main/java/com/lwl/tempalte/interfaceimpl/Client.java" />
         <option value="$PROJECT_DIR$/template/src/main/java/com/lwl/tempalte/interfaceimpl/MakeTea.java" />
         <option value="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/classadapter/adaptee.java" />
         <option value="$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/classadapter/adapter.java" />
@@ -247,6 +115,7 @@
         <option value="$PROJECT_DIR$/decorator/src/main/java/com/lwl/decorator/battercake/SausageDecorator.java" />
         <option value="$PROJECT_DIR$/decorator/src/main/java/com/lwl/decorator/battercake/BattercakeTest.java" />
         <option value="$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/WomanRenter.java" />
+        <option value="$PROJECT_DIR$/proxy/pom.xml" />
       </list>
     </option>
   </component>
@@ -287,7 +156,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,95 +166,25 @@
             <path>
               <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
               <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lwl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lwl" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lwl" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicproxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern-design" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="lwl" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamicproxy" type="462c0819:PsiDirectoryNode" />
-              <item name="cglibproxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553073504259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553671817436" />
     <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/2019学习/02.经典框架中常见的设计模式/06.装饰者模式及观察者模式/课堂源码/gupaoedu-vip-pattern-decorator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -517,19 +315,33 @@
       <workItem from="1552980140961" duration="7410000" />
       <workItem from="1553002882045" duration="10566000" />
       <workItem from="1553046282308" duration="12965000" />
-      <workItem from="1553067369268" duration="2238000" />
+      <workItem from="1553067369268" duration="3044000" />
+      <workItem from="1553177074761" duration="668000" />
+      <workItem from="1553498342089" duration="21000" />
+      <workItem from="1553611007304" duration="939000" />
+      <workItem from="1553662577800" duration="3626000" />
+      <workItem from="1553761448326" duration="1501000" />
+      <workItem from="1555129518850" duration="319000" />
     </task>
+    <task id="LOCAL-00001" summary="提交原型模式和代理模式课后作业">
+      <created>1555129830370</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555129830370</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78709000" />
+    <option name="totallyTimeSpent" value="86589000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48735243" visible="true" weight="0.27345416" />
-      <window_info x="713" y="368" width="493" height="304" id="Structure" order="1" sideWeight="0.51264757" side_tool="true" visible="true" weight="0.27345416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4772344" visible="true" weight="0.29264393" />
+      <window_info x="713" y="368" width="493" height="304" id="Structure" order="1" sideWeight="0.5227656" side_tool="true" visible="true" weight="0.29264393" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -537,7 +349,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48560768" visible="true" weight="0.33964366" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48507464" weight="0.33964366" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -546,8 +358,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5143923" side_tool="true" visible="true" weight="0.33964366" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48720682" weight="0.32962137" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51492536" side_tool="true" visible="true" weight="0.33964366" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48667377" weight="0.32962137" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -572,171 +384,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/objectadapter/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/poweradapter/DC5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/poweradapter/PowerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/poweradapter/AC200.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/poweradapter/PowerAdapterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v1/service/SignInService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v1/service/package-info.java" />
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/ResultMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v1/SignInForThridTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/adapters/LoginForWechatAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/IPassportForThird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/adapters/LoginForTelphoneAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/adapters/LoginForTokenAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v1/service/SignInForThridService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="55" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/adapters/LoginAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/adapters/LoginForQQAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adapter/src/main/java/com/lwl/adapter/loginadapter/v2/PassportForThirdTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.lwl.adapter.loginadapter.v2.PassportForThirdAdapter">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1138,24 +785,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/ManRenter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/5.0.2.RELEASE/spring-jdbc-5.0.2.RELEASE.jar!/org/springframework/jdbc/datasource/DataSourceTransactionManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="346">
+          <caret line="156" column="15" selection-start-line="156" selection-start-column="12" selection-end-line="156" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#10771#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/AgentInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/singleton/src/main/java/com/lwl/innerclass/InnerClassSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="-10">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/CglibClient.java">
+    <entry file="file://$PROJECT_DIR$/singleton/src/test/java/ContainerSingletonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/test/java/LazySimpleSingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/test/java/InnerClassSingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/singleton/src/test/java/SerializableSingletonClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1163,6 +834,99 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/AgentInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/ManRenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delegate/src/main/java/com/lwl/delegate/mvc/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/ProxyRenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/staticproxy/Renter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/jre/lib/rt.jar!/sun/misc/ProxyGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="787" column="25" selection-start-line="787" selection-start-column="25" selection-end-line="787" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/cglibproxy/CglibClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/src/main/java/com/lwl/proxy/dynamicproxy/jdkproxy/AgentHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/adapter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
