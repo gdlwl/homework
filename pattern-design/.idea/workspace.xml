@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1900e3aa-cf96-4082-8621-5c86b6853c83" name="Default Changelist" comment="提交原型模式和代理模式课后作业">
+    <list default="true" id="1900e3aa-cf96-4082-8621-5c86b6853c83" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/prototype/target/" />
@@ -29,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/proxy/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -184,7 +185,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553671817436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555130251705" />
     <property name="last_opened_file_path" value="D:/BaiduNetdiskDownload/2019学习/02.经典框架中常见的设计模式/06.装饰者模式及观察者模式/课堂源码/gupaoedu-vip-pattern-decorator" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -321,7 +322,7 @@
       <workItem from="1553611007304" duration="939000" />
       <workItem from="1553662577800" duration="3626000" />
       <workItem from="1553761448326" duration="1501000" />
-      <workItem from="1555129518850" duration="319000" />
+      <workItem from="1555129518850" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="提交原型模式和代理模式课后作业">
       <created>1555129830370</created>
@@ -330,17 +331,31 @@
       <option name="project" value="LOCAL" />
       <updated>1555129830370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring版本升级">
+      <created>1555129867521</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555129867521</updated>
+    </task>
+    <task id="LOCAL-00003" summary="版本升级">
+      <created>1555130039279</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555130039279</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86589000" />
+    <option name="totallyTimeSpent" value="86989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4772344" visible="true" weight="0.29264393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4772344" visible="true" weight="0.29264393" />
       <window_info x="713" y="368" width="493" height="304" id="Structure" order="1" sideWeight="0.5227656" side_tool="true" visible="true" weight="0.29264393" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -358,7 +373,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49946696" weight="0.32962137" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.51492536" side_tool="true" visible="true" weight="0.33964366" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.51492536" side_tool="true" visible="true" weight="0.33964366" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.48667377" weight="0.32962137" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -377,7 +392,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交原型模式和代理模式课后作业" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交原型模式和代理模式课后作业" />
+    <MESSAGE value="spring版本升级" />
+    <MESSAGE value="版本升级" />
+    <option name="LAST_COMMIT_MESSAGE" value="版本升级" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -926,7 +943,7 @@
     <entry file="file://$PROJECT_DIR$/proxy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
